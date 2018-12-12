@@ -20,6 +20,10 @@ func main() {
 	router.Use(gin.Logger())
 	router.LoadHTMLGlob("static/*.html")
 	router.Static("/static", "static")
+	router.POST("/solve", solveHandler)
+	router.POST("/start", startHandler)
+	router.POST("/stop/", stopHandler)
+	router.POST("/result/", resultHandler)
 
 	router.GET("/", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "index.html", nil)
