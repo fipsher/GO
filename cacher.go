@@ -6,8 +6,6 @@ import (
 	"fmt"
 	"log"
 	"math"
-
-	_ "github.com/denisenkom/go-mssqldb"
 )
 
 var db *sql.DB
