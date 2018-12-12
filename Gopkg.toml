@@ -29,6 +29,6 @@
   go-tests = true
   unused-packages = true
 
-[[constraint]]
-  branch = "master"
-  name = "github.com/denisenkom/go-mssqldb"
+[metadata.heroku]
+  root-package = "/C_/Users/Андрій/go/src/go"
+  go-version = "go1.8.3"
