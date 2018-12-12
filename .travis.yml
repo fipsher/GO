@@ -5,3 +5,9 @@ go:
   - "1.8"
   - "1.10.x"
   - master
+
+
+deploy:
+  provider: heroku
+  api_key: "4fba169a-c8b3-4851-ba36-71e039374978"
+  app: lnugolang
