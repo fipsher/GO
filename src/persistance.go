@@ -22,6 +22,10 @@ func initDB() {
 	})
 
 	pong, err := db.Ping().Result()
+	if err != nil {
+		db = nil
+	}
+
 	fmt.Println(pong, err)
    }
 
