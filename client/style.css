@@ -1,0 +1,85 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Helvetica';
+	font-size: 16pt;
+	background-color: #eee;
+	border: 0;
+	display: block;
+}
+
+
+input {
+	padding: 4px;
+	box-sizing: border-box;
+	height: 32px;
+	width: 48px;
+	border: solid 1px #0004;
+	background-color: #fff4;
+	color: #fff;
+	text-align: center;
+	font-size: 16pt;
+	outline: none;
+}
+
+input[type=button] {
+	margin-top: -3px; /* ? */
+	font-size: 16pt;
+	padding: 0px;
+	width: 40px;
+	vertical-align: middle;
+	background-color: #0002;
+	cursor: pointer;
+}
+
+.right {
+	float: right;
+}
+
+#run.stop {
+	/* visibility: hidden; */
+	color: transparent;
+	background-color: #ddf2;
+}
+
+.content {
+	margin-top: 48px;
+	padding: 8px;
+	width: 25%;
+	padding-left: 40%;
+}
+
+#matrix input {
+	color: #000;
+}
+#matrix input:focus {
+	border:solid 1px #00f4;
+	background-color: #ddf2;
+}
+
+#matrix input::-webkit-inner-spin-button, 
+#matrix input::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#matrix input.res {
+	border: 1px dashed #0004;
+	background-color: #fff0;
+	width: 300px;
+}
+
+#matrix input.res.none {
+	color: #aaa;
+}
+
+.progress .percent {
+	padding: 4px;
+	color: #c1632a;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+.progress.stopped {
+	background-color: #c1632a;
+}

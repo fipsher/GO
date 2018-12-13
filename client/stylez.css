@@ -1,0 +1,80 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16pt;
+	border: 0;
+	display: block;
+}
+
+input.mat, .res, .vec{
+	width: 50px;
+	height: 50px;
+}
+
+input {
+	padding: 4px;
+	box-sizing: border-box;
+	height: 32px;
+	width: 48px;
+	border: solid 1px #000000;
+	color: #000000;
+	text-align: center;
+	font-size: 16pt;
+	outline: none;
+}
+
+input[type=button] {
+	margin-top: -3px; /* ? */
+	font-size: 16pt;
+	padding: 0px;
+	width: initial;
+	vertical-align: middle;
+	cursor: pointer;
+	padding: 5px 10px;
+}
+
+.right {
+	float: right;
+}
+
+.btn-run{
+	color: #000000;
+}
+
+#run.stop {
+	/* visibility: hidden; */
+	color: transparent;
+}
+
+.content {
+	margin-top: 48px;
+	padding: 8px;
+	width: 25%;
+	padding-left: 40%;
+}
+
+
+#matrix input:focus {
+	border:solid 1px #000000;
+}
+
+#matrix input::-webkit-inner-spin-button, 
+#matrix input::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+#matrix .res {
+	border: 1px solid #000000;
+	padding: 12px 25px;
+}
+
+
+
+.progress .percent {
+	padding: 4px;
+	color: #000000;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
